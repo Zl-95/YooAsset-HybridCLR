@@ -1,0 +1,37 @@
+﻿2026-09-24 11:27:43.801 [INFO] Building package 'DefaultPackage' with pipeline 'ScriptableBuildPipeline'.
+2026-09-24 11:27:43.801 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2026-09-24 11:27:43.910 [INFO] Delete package root directory: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage'.
+2026-09-24 11:27:43.911 [INFO] Create pipeline output directory: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/OutputCache'.
+2026-09-24 11:27:43.911 [INFO] TaskPrepare completed in 0 seconds.
+2026-09-24 11:27:43.911 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2026-09-24 11:27:44.052 [WARN] [ErrorCode201] Found unreferenced asset and removed it: 'Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_red_dff.tif'.
+2026-09-24 11:27:44.053 [WARN] [ErrorCode201] Found unreferenced asset and removed it: 'Assets/GameRes/UIFont/LICENSE.txt'.
+2026-09-24 11:27:44.055 [INFO] TaskGetBuildMap completed in 0 seconds.
+2026-09-24 11:27:44.055 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
+2026-09-24 11:27:51.697 [INFO] UnityEngine build succeeded.
+2026-09-24 11:27:51.698 [INFO] TaskBuilding completed in 7 seconds.
+2026-09-24 11:27:51.698 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
+2026-09-24 11:27:51.700 [INFO] Build results verified successfully.
+2026-09-24 11:27:51.700 [INFO] TaskVerifyBuildResult completed in 0 seconds.
+2026-09-24 11:27:51.700 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
+2026-09-24 11:27:51.700 [INFO] TaskEncryption completed in 0 seconds.
+2026-09-24 11:27:51.700 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
+2026-09-24 11:27:51.881 [INFO] TaskUpdateBundleInfo completed in 0 seconds.
+2026-09-24 11:27:51.881 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
+2026-09-24 11:27:51.918 [INFO] Create package manifest file: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/2026-09-24-687/DefaultPackage_2026-09-24-687.bytes'.
+2026-09-24 11:27:51.918 [INFO] Create package manifest hash file: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/2026-09-24-687/DefaultPackage_2026-09-24-687.hash'.
+2026-09-24 11:27:51.919 [INFO] Create package manifest version file: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/2026-09-24-687/DefaultPackage.version'.
+2026-09-24 11:27:51.920 [INFO] TaskCreateManifest completed in 0 seconds.
+2026-09-24 11:27:51.920 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
+2026-09-24 11:27:51.925 [INFO] Create build report file: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/2026-09-24-687/DefaultPackage_2026-09-24-687.report'.
+2026-09-24 11:27:51.926 [INFO] TaskCreateReport completed in 0 seconds.
+2026-09-24 11:27:51.926 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
+2026-09-24 11:27:51.926 [INFO] Start making patch package: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Bundles/StandaloneWindows64/DefaultPackage/2026-09-24-687'.
+2026-09-24 11:27:51.945 [INFO] TaskCreatePackage completed in 0 seconds.
+2026-09-24 11:27:51.946 [INFO] --------------------------------------------->TaskCopyBundledFiles<--------------------------------------------
+2026-09-24 11:27:52.417 [INFO] Bundled files copy complete: 'D:/UnityProject/Yoo_HybridCLR_Demo/Yoo_HybridCLR_Demo/Assets/StreamingAssets/yoo/DefaultPackage'.
+2026-09-24 11:27:52.417 [INFO] TaskCopyBundledFiles completed in 0 seconds.
+2026-09-24 11:27:52.419 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
+2026-09-24 11:27:52.528 [INFO] TaskCreateCatalog completed in 0 seconds.
+2026-09-24 11:27:52.528 [INFO] Total build process time: 7 seconds.
+2026-09-24 11:27:52.528 [INFO] Resource pipeline build succeeded.

@@ -1,0 +1,35 @@
+﻿2026-09-25 11:45:22.187 [INFO] Building package 'DefaultPackage' with pipeline 'ScriptableBuildPipeline'.
+2026-09-25 11:45:22.187 [INFO] --------------------------------------------->TaskPrepare<--------------------------------------------
+2026-09-25 11:45:22.199 [INFO] Delete package root directory: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage'.
+2026-09-25 11:45:22.201 [INFO] Create pipeline output directory: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/OutputCache'.
+2026-09-25 11:45:22.201 [INFO] TaskPrepare completed in 0 seconds.
+2026-09-25 11:45:22.201 [INFO] --------------------------------------------->TaskGetBuildMap<--------------------------------------------
+2026-09-25 11:45:22.302 [INFO] TaskGetBuildMap completed in 0 seconds.
+2026-09-25 11:45:22.302 [INFO] --------------------------------------------->TaskBuilding<--------------------------------------------
+2026-09-25 11:45:24.615 [INFO] UnityEngine build succeeded.
+2026-09-25 11:45:24.615 [INFO] TaskBuilding completed in 2 seconds.
+2026-09-25 11:45:24.615 [INFO] --------------------------------------------->TaskVerifyBuildResult<--------------------------------------------
+2026-09-25 11:45:24.618 [INFO] Build results verified successfully.
+2026-09-25 11:45:24.618 [INFO] TaskVerifyBuildResult completed in 0 seconds.
+2026-09-25 11:45:24.618 [INFO] --------------------------------------------->TaskEncryption<--------------------------------------------
+2026-09-25 11:45:24.618 [INFO] TaskEncryption completed in 0 seconds.
+2026-09-25 11:45:24.618 [INFO] --------------------------------------------->TaskUpdateBundleInfo<--------------------------------------------
+2026-09-25 11:45:24.640 [INFO] TaskUpdateBundleInfo completed in 0 seconds.
+2026-09-25 11:45:24.641 [INFO] --------------------------------------------->TaskCreateManifest<--------------------------------------------
+2026-09-25 11:45:24.672 [INFO] Create package manifest file: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/2026-09-25-705/ZL_DefaultPackage_2026-09-25-705.bytes'.
+2026-09-25 11:45:24.673 [INFO] Create package manifest hash file: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/2026-09-25-705/ZL_DefaultPackage_2026-09-25-705.hash'.
+2026-09-25 11:45:24.674 [INFO] Create package manifest version file: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/2026-09-25-705/ZL_DefaultPackage.version'.
+2026-09-25 11:45:24.674 [INFO] TaskCreateManifest completed in 0 seconds.
+2026-09-25 11:45:24.674 [INFO] --------------------------------------------->TaskCreateReport<--------------------------------------------
+2026-09-25 11:45:24.678 [INFO] Create build report file: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/2026-09-25-705/ZL_DefaultPackage_2026-09-25-705.report'.
+2026-09-25 11:45:24.678 [INFO] TaskCreateReport completed in 0 seconds.
+2026-09-25 11:45:24.678 [INFO] --------------------------------------------->TaskCreatePackage<--------------------------------------------
+2026-09-25 11:45:24.679 [INFO] Start making patch package: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Bundles/StandaloneWindows64/DefaultPackage/2026-09-25-705'.
+2026-09-25 11:45:24.682 [INFO] TaskCreatePackage completed in 0 seconds.
+2026-09-25 11:45:24.683 [INFO] --------------------------------------------->TaskCopyBundledFiles<--------------------------------------------
+2026-09-25 11:45:24.783 [INFO] Bundled files copy complete: 'D:/UnityProject/Yoo_HybridCLR_0_1/Yoo_HybridCLR_0_1/Assets/StreamingAssets/yooAsset/DefaultPackage'.
+2026-09-25 11:45:24.785 [INFO] TaskCopyBundledFiles completed in 0 seconds.
+2026-09-25 11:45:24.785 [INFO] --------------------------------------------->TaskCreateCatalog<--------------------------------------------
+2026-09-25 11:45:24.879 [INFO] TaskCreateCatalog completed in 0 seconds.
+2026-09-25 11:45:24.879 [INFO] Total build process time: 2 seconds.
+2026-09-25 11:45:24.880 [INFO] Resource pipeline build succeeded.

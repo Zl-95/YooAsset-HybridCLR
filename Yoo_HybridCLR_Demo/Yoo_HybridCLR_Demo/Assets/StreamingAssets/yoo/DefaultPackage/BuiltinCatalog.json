@@ -1,0 +1,183 @@
+{
+    "FileVersion": 1,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2026-09-24-687",
+    "Entries": [
+        {
+            "BundleGuid": "a467c07d2a265007511fe16f93db4411",
+            "FileName": "assets_gameres_audio_music_background_a467c07d2a265007511fe16f93db4411.bundle"
+        },
+        {
+            "BundleGuid": "dd9cb79d71862de9dd7e0e28ef290f66",
+            "FileName": "assets_gameres_audio_sound_explosion_asteroid_dd9cb79d71862de9dd7e0e28ef290f66.bundle"
+        },
+        {
+            "BundleGuid": "e7f32b61d3f83d00c4338cc185839f1c",
+            "FileName": "assets_gameres_audio_sound_explosion_enemy_e7f32b61d3f83d00c4338cc185839f1c.bundle"
+        },
+        {
+            "BundleGuid": "ab36e0272a7e0a927eee4bcfabe915fb",
+            "FileName": "assets_gameres_audio_sound_explosion_player_ab36e0272a7e0a927eee4bcfabe915fb.bundle"
+        },
+        {
+            "BundleGuid": "82c685c84fbfba14e55277bee0a9dd10",
+            "FileName": "assets_gameres_audio_sound_weapon_enemy_82c685c84fbfba14e55277bee0a9dd10.bundle"
+        },
+        {
+            "BundleGuid": "eb35e30b3d329f43f45daf1f364e737a",
+            "FileName": "assets_gameres_audio_sound_weapon_player_eb35e30b3d329f43f45daf1f364e737a.bundle"
+        },
+        {
+            "BundleGuid": "6b71d9f82935220a5d9ec669f576a7a4",
+            "FileName": "assets_gameres_effectart_6b71d9f82935220a5d9ec669f576a7a4.bundle"
+        },
+        {
+            "BundleGuid": "e666f8e71666af8a446da17394c78dea",
+            "FileName": "assets_gameres_effect_engines_enemy_e666f8e71666af8a446da17394c78dea.bundle"
+        },
+        {
+            "BundleGuid": "e957c9554da0790ef7864231421d2dbd",
+            "FileName": "assets_gameres_effect_engines_player_e957c9554da0790ef7864231421d2dbd.bundle"
+        },
+        {
+            "BundleGuid": "738c8d95589439b61d70e0bcecea94bc",
+            "FileName": "assets_gameres_effect_explosion_asteroid_738c8d95589439b61d70e0bcecea94bc.bundle"
+        },
+        {
+            "BundleGuid": "241820403356aa2a9516e2d12eaef4fa",
+            "FileName": "assets_gameres_effect_explosion_enemy_241820403356aa2a9516e2d12eaef4fa.bundle"
+        },
+        {
+            "BundleGuid": "d35344e73e1ece70f42491cbc2aaceb7",
+            "FileName": "assets_gameres_effect_explosion_player_d35344e73e1ece70f42491cbc2aaceb7.bundle"
+        },
+        {
+            "BundleGuid": "0f15c4fcbabd2e57312fd06bc30a4a41",
+            "FileName": "assets_gameres_entityart_prop_asteroid_01_0f15c4fcbabd2e57312fd06bc30a4a41.bundle"
+        },
+        {
+            "BundleGuid": "b653b76f2344082d8e9abc7635bb79fb",
+            "FileName": "assets_gameres_entityart_prop_asteroid_01_materials_b653b76f2344082d8e9abc7635bb79fb.bundle"
+        },
+        {
+            "BundleGuid": "804d95f0b0268186da5b384647290581",
+            "FileName": "assets_gameres_entityart_prop_asteroid_02_804d95f0b0268186da5b384647290581.bundle"
+        },
+        {
+            "BundleGuid": "808d2ef9b89b425ed2251a80f29710cd",
+            "FileName": "assets_gameres_entityart_prop_asteroid_02_materials_808d2ef9b89b425ed2251a80f29710cd.bundle"
+        },
+        {
+            "BundleGuid": "f8c8b0caa7cf942965d33696b47c07d1",
+            "FileName": "assets_gameres_entityart_prop_asteroid_03_f8c8b0caa7cf942965d33696b47c07d1.bundle"
+        },
+        {
+            "BundleGuid": "8670eca69042ae34a414300bea37e501",
+            "FileName": "assets_gameres_entityart_prop_asteroid_03_materials_8670eca69042ae34a414300bea37e501.bundle"
+        },
+        {
+            "BundleGuid": "64f300a8d480ecb1dd3d560131a33079",
+            "FileName": "assets_gameres_entityart_vehicle_enemyship_64f300a8d480ecb1dd3d560131a33079.bundle"
+        },
+        {
+            "BundleGuid": "94863c76353963e4efe074fba58f2daa",
+            "FileName": "assets_gameres_entityart_vehicle_enemyship_materials_94863c76353963e4efe074fba58f2daa.bundle"
+        },
+        {
+            "BundleGuid": "9a375f0b3d841fe84b5fa967736ada96",
+            "FileName": "assets_gameres_entityart_vehicle_playership_9a375f0b3d841fe84b5fa967736ada96.bundle"
+        },
+        {
+            "BundleGuid": "d206cb69e2c5a532b339324328c45d99",
+            "FileName": "assets_gameres_entityart_vehicle_playership_materials_d206cb69e2c5a532b339324328c45d99.bundle"
+        },
+        {
+            "BundleGuid": "4710122bf72a7e35f337b97bfbac96da",
+            "FileName": "assets_gameres_entity_asteroid01_4710122bf72a7e35f337b97bfbac96da.bundle"
+        },
+        {
+            "BundleGuid": "fcc364328ea7a925d6bb350b432e099d",
+            "FileName": "assets_gameres_entity_asteroid02_fcc364328ea7a925d6bb350b432e099d.bundle"
+        },
+        {
+            "BundleGuid": "7544b8552f7fc92b543f75469735d513",
+            "FileName": "assets_gameres_entity_asteroid03_7544b8552f7fc92b543f75469735d513.bundle"
+        },
+        {
+            "BundleGuid": "0a96a2cd579fdcd7aa8f2537335690dc",
+            "FileName": "assets_gameres_entity_enemy_bullet_0a96a2cd579fdcd7aa8f2537335690dc.bundle"
+        },
+        {
+            "BundleGuid": "6fc3e251e2d85905f00486d8e72757bc",
+            "FileName": "assets_gameres_entity_enemy_ship_6fc3e251e2d85905f00486d8e72757bc.bundle"
+        },
+        {
+            "BundleGuid": "68089886f9be2e4ef4ef4d3a663f17d5",
+            "FileName": "assets_gameres_entity_player_bullet_68089886f9be2e4ef4ef4d3a663f17d5.bundle"
+        },
+        {
+            "BundleGuid": "bc52928e6d839881e410f8e2fd400220",
+            "FileName": "assets_gameres_entity_player_ship_bc52928e6d839881e410f8e2fd400220.bundle"
+        },
+        {
+            "BundleGuid": "c8d09beb055693d2acc353639a1000c7",
+            "FileName": "assets_gameres_sceneart_c8d09beb055693d2acc353639a1000c7.bundle"
+        },
+        {
+            "BundleGuid": "2fd8c94905a175454acd5e41e741db1f",
+            "FileName": "assets_gameres_scene_scene_battle_2fd8c94905a175454acd5e41e741db1f.bundle"
+        },
+        {
+            "BundleGuid": "2416c8b1203f96be832e258a1e16bdba",
+            "FileName": "assets_gameres_scene_scene_home_2416c8b1203f96be832e258a1e16bdba.bundle"
+        },
+        {
+            "BundleGuid": "afe62a7ac64d74fd408a273485f54aac",
+            "FileName": "assets_gameres_uifont_afe62a7ac64d74fd408a273485f54aac.bundle"
+        },
+        {
+            "BundleGuid": "2684bbcc38bc4cbaa90e4f14a5a51ee3",
+            "FileName": "assets_gameres_uipanelart_2684bbcc38bc4cbaa90e4f14a5a51ee3.bundle"
+        },
+        {
+            "BundleGuid": "38144841314980052c5d4dea66d6cdfd",
+            "FileName": "assets_gameres_uipanel_uibattle_38144841314980052c5d4dea66d6cdfd.bundle"
+        },
+        {
+            "BundleGuid": "fcbda415ce6300fb6800a5e49b729d3e",
+            "FileName": "assets_gameres_uipanel_uihome_fcbda415ce6300fb6800a5e49b729d3e.bundle"
+        },
+        {
+            "BundleGuid": "a0d8c158a7548ddc1b7d770c3762f050",
+            "FileName": "assets_gameres_uipanel_uiloading_a0d8c158a7548ddc1b7d770c3762f050.bundle"
+        },
+        {
+            "BundleGuid": "b73ba61d5bf0039d77fe45e6df8da2a0",
+            "FileName": "assets_gameres_uispriteatlas_b73ba61d5bf0039d77fe45e6df8da2a0.bundle"
+        },
+        {
+            "BundleGuid": "12b546d4f90070f83a17d1d046e7f682",
+            "FileName": "assets_gameres_uisprite_atlas_frame_12b546d4f90070f83a17d1d046e7f682.bundle"
+        },
+        {
+            "BundleGuid": "74f547405e300ab1501645e4cfb04d08",
+            "FileName": "assets_gameres_uisprite_atlas_icon_74f547405e300ab1501645e4cfb04d08.bundle"
+        },
+        {
+            "BundleGuid": "601d1b68747a5c1291469d51b0995bfa",
+            "FileName": "assets_hotupdatedlls_601d1b68747a5c1291469d51b0995bfa.bundle"
+        },
+        {
+            "BundleGuid": "a2293296a66584beaa5699f7706e9559",
+            "FileName": "share_assets_gameres_scene_a2293296a66584beaa5699f7706e9559.bundle"
+        },
+        {
+            "BundleGuid": "ec4f0b2304d3bcf089a3248f6472fed8",
+            "FileName": "share_packages_com_unity_render-pipelines_universal_runtime_materials_ec4f0b2304d3bcf089a3248f6472fed8.bundle"
+        },
+        {
+            "BundleGuid": "09d034c0bbe48e0530fc8268fc9d34bd",
+            "FileName": "unityshaders_09d034c0bbe48e0530fc8268fc9d34bd.bundle"
+        }
+    ]
+}

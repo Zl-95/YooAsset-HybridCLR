@@ -1,0 +1,2045 @@
+{
+    "Summary": {
+        "YooVersion": "3.0.6",
+        "UnityVersion": "2022.3.62f3c1",
+        "BuildDate": "2026/9/24 11:27:51",
+        "BuildSeconds": 7,
+        "BuildTarget": 19,
+        "BuildPipeline": "ScriptableBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2026-09-24-687",
+        "BuildPackageNote": "2026/9/24 11:27:43",
+        "UniqueBundleName": false,
+        "EnableAddressable": true,
+        "SupportExtensionless": true,
+        "LocationToLower": false,
+        "IncludeAssetGuid": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": true,
+        "UseAssetDependencyDB": true,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "ManifestProcessServicesClassName": "YooAsset.Editor.ManifestEncryptorNone",
+        "ManifestRestoreServicesClassName": "YooAsset.Editor.ManifestDecryptorNone",
+        "FileNameStyle": 2,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": false,
+        "ReplaceAssetPathWithAddress": false,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "unityshaders.bundle",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 100,
+        "MainAssetTotalCount": 26,
+        "AllBundleTotalCount": 44,
+        "AllBundleTotalSize": 7353962,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "music_background",
+            "AssetPath": "Assets/GameRes/Audio/music_background.wav",
+            "AssetGuid": "7b04c59dd84f14039b601e1abbe7b884",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_music_background.bundle",
+            "MainBundleSize": 279518,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "sound_explosion_asteroid",
+            "AssetPath": "Assets/GameRes/Audio/sound_explosion_asteroid.wav",
+            "AssetGuid": "3dc7455402dfa462b89a4bbd513955e9",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_sound_explosion_asteroid.bundle",
+            "MainBundleSize": 150724,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "sound_explosion_enemy",
+            "AssetPath": "Assets/GameRes/Audio/sound_explosion_enemy.wav",
+            "AssetGuid": "72e76810224064300b7d32e8322a5d12",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_sound_explosion_enemy.bundle",
+            "MainBundleSize": 175620,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "sound_explosion_player",
+            "AssetPath": "Assets/GameRes/Audio/sound_explosion_player.wav",
+            "AssetGuid": "a019ae3af8e864616b85773c509f5285",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_sound_explosion_player.bundle",
+            "MainBundleSize": 320622,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "sound_weapon_enemy",
+            "AssetPath": "Assets/GameRes/Audio/sound_weapon_enemy.wav",
+            "AssetGuid": "1be4472894949437694aead55c6da60f",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_sound_weapon_enemy.bundle",
+            "MainBundleSize": 52191,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "sound_weapon_player",
+            "AssetPath": "Assets/GameRes/Audio/sound_weapon_player.wav",
+            "AssetGuid": "bf75b984df8a84987bcf3a8bf6e2862d",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_audio_sound_weapon_player.bundle",
+            "MainBundleSize": 64908,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "engines_enemy",
+            "AssetPath": "Assets/GameRes/Effect/engines_enemy.prefab",
+            "AssetGuid": "93bdcaae53f95461785a8eeb8c01bc61",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_effect_engines_enemy.bundle",
+            "MainBundleSize": 27923,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_enemyShip_engines_mat.mat",
+                    "AssetGUID": "1b4bad6cea5a94611b21f9757fe41444"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_enginePulse_dff.tif",
+                    "AssetGUID": "eabb37cb6d738b443b398b701a64cd88"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "engines_player",
+            "AssetPath": "Assets/GameRes/Effect/engines_player.prefab",
+            "AssetGuid": "62ea8a5ca94c546f29ba6dea8f379a7b",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_effect_engines_player.bundle",
+            "MainBundleSize": 28351,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_dff.tif",
+                    "AssetGUID": "0963e6c65b2b1f74d9f455e21901e2dc"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_mat.mat",
+                    "AssetGUID": "c58c9afddbd36d14d837fa218d772996"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_dff.tif",
+                    "AssetGUID": "2cb5eef4d7d7bf6459dd13a3f8d90246"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_mat.mat",
+                    "AssetGUID": "a7b030cffa2dc44478c14e49a22771c2"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "explosion_asteroid",
+            "AssetPath": "Assets/GameRes/Effect/explosion_asteroid.prefab",
+            "AssetGuid": "a6d58f54ce5934781962a4f887e834f3",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_effect_explosion_asteroid.bundle",
+            "MainBundleSize": 31316,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_asteroid.wav",
+                    "AssetGUID": "3dc7455402dfa462b89a4bbd513955e9"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_glow_mat.mat",
+                    "AssetGUID": "0ed73dc47f4cb38489020d05e9f02c99"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_dff.tif",
+                    "AssetGUID": "04dbc0581071c254ea6564b2ff06ff9b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_mat.mat",
+                    "AssetGUID": "1d46a17a95a444c08830612bc1146d1d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_dff.tif",
+                    "AssetGUID": "7e91cd9bad7babf4b975882a4b7453cb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_mat.mat",
+                    "AssetGUID": "97b1f8b25cca2bc458cb9d6127c8d186"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_small_dff.tif",
+                    "AssetGUID": "1478894bc9a1ed241b05b0862a7b8bce"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_white_mat.mat",
+                    "AssetGUID": "0f995b3145e0e7247a42da6cef1dbf23"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_asteroid.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "explosion_enemy",
+            "AssetPath": "Assets/GameRes/Effect/explosion_enemy.prefab",
+            "AssetGuid": "160925a6fe2664f2a978566b819f0af0",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_effect_explosion_enemy.bundle",
+            "MainBundleSize": 31564,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_enemy.wav",
+                    "AssetGUID": "72e76810224064300b7d32e8322a5d12"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_blast_mat.mat",
+                    "AssetGUID": "1cfe02ffd0b74854ea5bcd1a3c63ac3c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_flash_dff.tif",
+                    "AssetGUID": "3e504a46a8fcec34db3c4776530c6eb2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_dff.tif",
+                    "AssetGUID": "04dbc0581071c254ea6564b2ff06ff9b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_mat.mat",
+                    "AssetGUID": "1d46a17a95a444c08830612bc1146d1d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_blue_mat.mat",
+                    "AssetGUID": "b0c7cf51d3fecb446ab93bf854419715"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_dff.tif",
+                    "AssetGUID": "7e91cd9bad7babf4b975882a4b7453cb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_mat.mat",
+                    "AssetGUID": "97b1f8b25cca2bc458cb9d6127c8d186"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_small_dff.tif",
+                    "AssetGUID": "1478894bc9a1ed241b05b0862a7b8bce"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_enemy.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "explosion_player",
+            "AssetPath": "Assets/GameRes/Effect/explosion_player.prefab",
+            "AssetGuid": "3455fe69f7ddc4604b95bf9b0a1e88d7",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_effect_explosion_player.bundle",
+            "MainBundleSize": 32208,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_player.wav",
+                    "AssetGUID": "a019ae3af8e864616b85773c509f5285"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_blast_mat.mat",
+                    "AssetGUID": "1cfe02ffd0b74854ea5bcd1a3c63ac3c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_flash_dff.tif",
+                    "AssetGUID": "3e504a46a8fcec34db3c4776530c6eb2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_dff.tif",
+                    "AssetGUID": "04dbc0581071c254ea6564b2ff06ff9b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_mat.mat",
+                    "AssetGUID": "1d46a17a95a444c08830612bc1146d1d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_dff.tif",
+                    "AssetGUID": "7e91cd9bad7babf4b975882a4b7453cb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_mat.mat",
+                    "AssetGUID": "97b1f8b25cca2bc458cb9d6127c8d186"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_small_dff.tif",
+                    "AssetGUID": "1478894bc9a1ed241b05b0862a7b8bce"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_white_mat.mat",
+                    "AssetGUID": "0f995b3145e0e7247a42da6cef1dbf23"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_yellow_mat.mat",
+                    "AssetGUID": "a23eef5e20ff8cb46adf33491fc443fb"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_player.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "asteroid01",
+            "AssetPath": "Assets/GameRes/Entity/asteroid01.prefab",
+            "AssetGuid": "7d5f7699d6d1d48e485ac71126e12061",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_asteroid01.bundle",
+            "MainBundleSize": 4312,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/Materials/prop_asteroid_01_mat.mat",
+                    "AssetGUID": "a6af0edc109b122438f02e8e8d6f0ac2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01.FBX",
+                    "AssetGUID": "baedbbad82997f445a8cb4da210404e0"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_dff.tif",
+                    "AssetGUID": "ae6a7f967521769458b0913fa39caaf4"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_mat.mat",
+                    "AssetGUID": "583ff7026dac91849b7c7b2468ba456b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_nrm.tif",
+                    "AssetGUID": "f6db5bbdfe0e9894798706814cd6b336"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_01.bundle",
+                "assets_gameres_entityart_prop_asteroid_01_materials.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "asteroid02",
+            "AssetPath": "Assets/GameRes/Entity/asteroid02.prefab",
+            "AssetGuid": "9143e2b62ad50488482f9b73672fc331",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_asteroid02.bundle",
+            "MainBundleSize": 4366,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/Materials/prop_asteroid_02_mat.mat",
+                    "AssetGUID": "9ed378c1d3f54194eb370d03329dc8d6"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02.FBX",
+                    "AssetGUID": "9afa958d6d8235941b9badb42aae4370"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_dff.tif",
+                    "AssetGUID": "ba157ba55f72c424a9e88f3c029997c4"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_mat.mat",
+                    "AssetGUID": "578af1667322bab45b652b79a40bb4fb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_nrm.tif",
+                    "AssetGUID": "6d9b42ac01f24bf4d98923573f103575"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_02.bundle",
+                "assets_gameres_entityart_prop_asteroid_02_materials.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "asteroid03",
+            "AssetPath": "Assets/GameRes/Entity/asteroid03.prefab",
+            "AssetGuid": "834bfaee90a9d4e04b1e8c1ca22cc88e",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_asteroid03.bundle",
+            "MainBundleSize": 4349,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/Materials/prop_asteroid_03_mat.mat",
+                    "AssetGUID": "0d57767b5f74e724b88b2db7c72a99aa"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03.FBX",
+                    "AssetGUID": "2768a9a4c8d289840918dcb879705893"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_dff.tif",
+                    "AssetGUID": "836be25be3e1e8c41ae5545bc8a9a4d7"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_mat.mat",
+                    "AssetGUID": "4c3865b2ac420cd46a9cde6ab468d016"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_nrm.tif",
+                    "AssetGUID": "7eae0d2701845a54aa570b07c55dab44"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_03.bundle",
+                "assets_gameres_entityart_prop_asteroid_03_materials.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "enemy_bullet",
+            "AssetPath": "Assets/GameRes/Entity/enemy_bullet.prefab",
+            "AssetGuid": "11e27c26ac87b40f0a62ec40d7261989",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_enemy_bullet.bundle",
+            "MainBundleSize": 4386,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_bolt_cyan_mat.mat",
+                    "AssetGUID": "63fe6ff9ab9e1433f8db4ebd940f2442"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_lazer_cyan_dff.tif",
+                    "AssetGUID": "6e3730451fa077346abd4ac642ea71d8"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "enemy_ship",
+            "AssetPath": "Assets/GameRes/Entity/enemy_ship.prefab",
+            "AssetGuid": "afc18fc39ade3744397c0c993b57be53",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_enemy_ship.bundle",
+            "MainBundleSize": 31928,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_weapon_enemy.wav",
+                    "AssetGUID": "1be4472894949437694aead55c6da60f"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_enemyShip_engines_mat.mat",
+                    "AssetGUID": "1b4bad6cea5a94611b21f9757fe41444"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_enginePulse_dff.tif",
+                    "AssetGUID": "eabb37cb6d738b443b398b701a64cd88"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/Materials/vehicle_enemyShip_glow_mat.mat",
+                    "AssetGUID": "d13764c44bef4ab42ab4ec990a737726"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/Materials/vehicle_enemyShip_metal_mat.mat",
+                    "AssetGUID": "b0d62c843411de048af78c17685f009c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip.FBX",
+                    "AssetGUID": "9ddab293e2a8af3499dac05f5fd6169c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_glow_mat.mat",
+                    "AssetGUID": "1e0350b97c61bfb4a91c62d756d01727"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_metal_mat.mat",
+                    "AssetGUID": "c547624e174de984882f0a14b4bb32e1"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_nrm.tif",
+                    "AssetGUID": "6e023ca4283b3a7469cd61d24c83048c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_purple_dff.tif",
+                    "AssetGUID": "6e5d026bf0652ed4380f6a66f4aa26c5"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/cube_junkyard_sharp.cubemap",
+                    "AssetGUID": "f3a18a747c16a9b478bead78298b8258"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_sound_weapon_enemy.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_entityart_vehicle_enemyship.bundle",
+                "assets_gameres_entityart_vehicle_enemyship_materials.bundle",
+                "assets_gameres_sceneart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "player_bullet",
+            "AssetPath": "Assets/GameRes/Entity/player_bullet.prefab",
+            "AssetGuid": "f4ec271e525e14ca9927a07e6a2e153d",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_player_bullet.bundle",
+            "MainBundleSize": 4372,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_bolt_orange_mat.mat",
+                    "AssetGUID": "8e27380ee68aa4a219b4db9018e7da31"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_lazer_orange_dff.tif",
+                    "AssetGUID": "fd3cbf51780694849b9b019b36a3938e"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "player_ship",
+            "AssetPath": "Assets/GameRes/Entity/player_ship.prefab",
+            "AssetGuid": "738bdf56857a65f479c367c7b62c4ad7",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_entity_player_ship.bundle",
+            "MainBundleSize": 31897,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_weapon_player.wav",
+                    "AssetGUID": "bf75b984df8a84987bcf3a8bf6e2862d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_dff.tif",
+                    "AssetGUID": "0963e6c65b2b1f74d9f455e21901e2dc"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_mat.mat",
+                    "AssetGUID": "c58c9afddbd36d14d837fa218d772996"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_dff.tif",
+                    "AssetGUID": "2cb5eef4d7d7bf6459dd13a3f8d90246"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_mat.mat",
+                    "AssetGUID": "a7b030cffa2dc44478c14e49a22771c2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/Materials/vehicle_playerShip_glass_mat.mat",
+                    "AssetGUID": "7064cca58a51b35428de2569444f8498"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/Materials/vehicle_playerShip_metal_mat.mat",
+                    "AssetGUID": "e3b566fc47d656e4dab8cd05c25a4d3b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip.FBX",
+                    "AssetGUID": "d9808401c68af274a8edfbed3d1b53c7"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_collider.FBX",
+                    "AssetGUID": "5282f20eba4d44213820e21af8481932"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_glass_mat.mat",
+                    "AssetGUID": "f36c72c738c55f741afcd674a0b1245f"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_metal_mat.mat",
+                    "AssetGUID": "8940b037a9b441c4cbd3d2b446838424"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_orange_dff.tif",
+                    "AssetGUID": "4f688097e85071841a2c3ba165000c20"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_orange_nrm.tif",
+                    "AssetGUID": "6db0c8354d868834abf29840037591b1"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/cube_junkyard_sharp.cubemap",
+                    "AssetGUID": "f3a18a747c16a9b478bead78298b8258"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/cube_junkyard_soft.cubemap",
+                    "AssetGUID": "92439ca99b5183e4b9ead41e36a0db40"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                    "AssetGUID": "31321ba15b8f8eb4c954353edc038b1d"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_sound_weapon_player.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_entityart_vehicle_playership.bundle",
+                "assets_gameres_entityart_vehicle_playership_materials.bundle",
+                "assets_gameres_sceneart.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "scene_battle",
+            "AssetPath": "Assets/GameRes/Scene/scene_battle.unity",
+            "AssetGuid": "367249c8f14b3a041b2a5c9a2b7de7a5",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_scene_scene_battle.bundle",
+            "MainBundleSize": 40612,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/music_background.wav",
+                    "AssetGUID": "7b04c59dd84f14039b601e1abbe7b884"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_star_dff.tif",
+                    "AssetGUID": "1c89236d45255234ebd1d39657ff7e02"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_star_mat.mat",
+                    "AssetGUID": "185f97f18bd603a478461ce9c08bd039"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_battleSettings.lighting",
+                    "AssetGUID": "269b07723b31d484e85034b9691f5d05"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.mat",
+                    "AssetGUID": "955000b4d1441470e8cbf94f483228b5"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.tif",
+                    "AssetGUID": "71646ebaae78d43aeb8b53cacdb69671"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_audio_music_background.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_sceneart.bundle",
+                "share_assets_gameres_scene.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "scene_home",
+            "AssetPath": "Assets/GameRes/Scene/scene_home.unity",
+            "AssetGuid": "d1f972c576a5e20448964044e23ac974",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_scene_scene_home.bundle",
+            "MainBundleSize": 14531,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_homeSettings.lighting",
+                    "AssetGUID": "ce19ad4aed57dde42b11449845f36731"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.mat",
+                    "AssetGUID": "955000b4d1441470e8cbf94f483228b5"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.tif",
+                    "AssetGUID": "71646ebaae78d43aeb8b53cacdb69671"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_sceneart.bundle",
+                "share_assets_gameres_scene.bundle",
+                "unityshaders.bundle"
+            ]
+        },
+        {
+            "Address": "UIBattle",
+            "AssetPath": "Assets/GameRes/UIPanel/UIBattle.prefab",
+            "AssetGuid": "dffa197b1a69704408cf9e2b16162c0e",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_uipanel_uibattle.bundle",
+            "MainBundleSize": 12625,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/UIFont/RobotoCondensed-Bold.ttf",
+                    "AssetGUID": "b20f139c373fa4555a05cdd0036dfa44"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/UIBgEffect.anim",
+                    "AssetGUID": "dd12c3b484650fb4e8ad6463c61be1c9"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/UIBgEffect.controller",
+                    "AssetGUID": "421c063ced5a88441bf232f19be89c34"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/bullet.png",
+                    "AssetGUID": "df03a809a6ef80c4db762c7ca7a5b76d"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle",
+                "assets_gameres_uisprite_atlas_icon.bundle"
+            ]
+        },
+        {
+            "Address": "UIHome",
+            "AssetPath": "Assets/GameRes/UIPanel/UIHome.prefab",
+            "AssetGuid": "f33f75c4ce22cf248abf851242ac4363",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_uipanel_uihome.bundle",
+            "MainBundleSize": 11641,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/UIFont/RobotoCondensed-Bold.ttf",
+                    "AssetGUID": "b20f139c373fa4555a05cdd0036dfa44"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/LOGO.png",
+                    "AssetGUID": "42476ac708102b546a90a57a41da5aac"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle"
+            ]
+        },
+        {
+            "Address": "UILoading",
+            "AssetPath": "Assets/GameRes/UIPanel/UILoading.prefab",
+            "AssetGuid": "79ae622f4c23c47449fc3ea70abaca51",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_uipanel_uiloading.bundle",
+            "MainBundleSize": 5098,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/UIFont/RobotoCondensed-Bold.ttf",
+                    "AssetGUID": "b20f139c373fa4555a05cdd0036dfa44"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/Space.jpg",
+                    "AssetGUID": "b76b8b216adf64f4bbdb78f7977f0310"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle"
+            ]
+        },
+        {
+            "Address": "atlas_frame",
+            "AssetPath": "Assets/GameRes/UISpriteAtlas/atlas_frame.spriteatlas",
+            "AssetGuid": "999da17edd2fbfe4496de3bbf2c182ec",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_uispriteatlas.bundle",
+            "MainBundleSize": 361081,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_frame/frame.png",
+                    "AssetGUID": "ddd541edadc7b104393f8973da3a3f7f"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_uisprite_atlas_frame.bundle"
+            ]
+        },
+        {
+            "Address": "atlas_icon",
+            "AssetPath": "Assets/GameRes/UISpriteAtlas/atlas_icon.spriteatlas",
+            "AssetGuid": "2a1b1891e0f61ff498a73d9ff86c26d7",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameres_uispriteatlas.bundle",
+            "MainBundleSize": 361081,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/bullet.png",
+                    "AssetGUID": "df03a809a6ef80c4db762c7ca7a5b76d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/pause.png",
+                    "AssetGUID": "4a4f57d0157f22847a4ded65a053c673"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/rocket.png",
+                    "AssetGUID": "c482382f1e7052644b02887e710d6a5c"
+                }
+            ],
+            "DependBundles": [
+                "assets_gameres_uisprite_atlas_icon.bundle"
+            ]
+        },
+        {
+            "Address": "HotUpdate.dll",
+            "AssetPath": "Assets/HotUpdateDlls/HotUpdate.dll.bytes",
+            "AssetGuid": "7b0558ba14229b84a8546c1bd1030bcc",
+            "AssetTags": [],
+            "MainBundleName": "assets_hotupdatedlls.bundle",
+            "MainBundleSize": 14695,
+            "DependAssets": [],
+            "DependBundles": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_gameres_audio_music_background.bundle",
+            "FileName": "assets_gameres_audio_music_background_a467c07d2a265007511fe16f93db4411.bundle",
+            "FileHash": "a467c07d2a265007511fe16f93db4411",
+            "FileCrc": 2372814192,
+            "FileSize": 279518,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_scene_scene_battle.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/music_background.wav",
+                    "AssetGUID": "7b04c59dd84f14039b601e1abbe7b884"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_audio_sound_explosion_asteroid.bundle",
+            "FileName": "assets_gameres_audio_sound_explosion_asteroid_dd9cb79d71862de9dd7e0e28ef290f66.bundle",
+            "FileHash": "dd9cb79d71862de9dd7e0e28ef290f66",
+            "FileCrc": 3084919868,
+            "FileSize": 150724,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_effect_explosion_asteroid.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_asteroid.wav",
+                    "AssetGUID": "3dc7455402dfa462b89a4bbd513955e9"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_audio_sound_explosion_enemy.bundle",
+            "FileName": "assets_gameres_audio_sound_explosion_enemy_e7f32b61d3f83d00c4338cc185839f1c.bundle",
+            "FileHash": "e7f32b61d3f83d00c4338cc185839f1c",
+            "FileCrc": 3277304027,
+            "FileSize": 175620,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_effect_explosion_enemy.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_enemy.wav",
+                    "AssetGUID": "72e76810224064300b7d32e8322a5d12"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_audio_sound_explosion_player.bundle",
+            "FileName": "assets_gameres_audio_sound_explosion_player_ab36e0272a7e0a927eee4bcfabe915fb.bundle",
+            "FileHash": "ab36e0272a7e0a927eee4bcfabe915fb",
+            "FileCrc": 2911429379,
+            "FileSize": 320622,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_effect_explosion_player.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_explosion_player.wav",
+                    "AssetGUID": "a019ae3af8e864616b85773c509f5285"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_audio_sound_weapon_enemy.bundle",
+            "FileName": "assets_gameres_audio_sound_weapon_enemy_82c685c84fbfba14e55277bee0a9dd10.bundle",
+            "FileHash": "82c685c84fbfba14e55277bee0a9dd10",
+            "FileCrc": 2117428313,
+            "FileSize": 52191,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_entity_enemy_ship.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_weapon_enemy.wav",
+                    "AssetGUID": "1be4472894949437694aead55c6da60f"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_audio_sound_weapon_player.bundle",
+            "FileName": "assets_gameres_audio_sound_weapon_player_eb35e30b3d329f43f45daf1f364e737a.bundle",
+            "FileHash": "eb35e30b3d329f43f45daf1f364e737a",
+            "FileCrc": 4231855552,
+            "FileSize": 64908,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_entity_player_ship.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Audio/sound_weapon_player.wav",
+                    "AssetGUID": "bf75b984df8a84987bcf3a8bf6e2862d"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effect_engines_enemy.bundle",
+            "FileName": "assets_gameres_effect_engines_enemy_e666f8e71666af8a446da17394c78dea.bundle",
+            "FileHash": "e666f8e71666af8a446da17394c78dea",
+            "FileCrc": 3083979714,
+            "FileSize": 27923,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Effect/engines_enemy.prefab",
+                    "AssetGUID": "93bdcaae53f95461785a8eeb8c01bc61"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effect_engines_player.bundle",
+            "FileName": "assets_gameres_effect_engines_player_e957c9554da0790ef7864231421d2dbd.bundle",
+            "FileHash": "e957c9554da0790ef7864231421d2dbd",
+            "FileCrc": 1612422447,
+            "FileSize": 28351,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Effect/engines_player.prefab",
+                    "AssetGUID": "62ea8a5ca94c546f29ba6dea8f379a7b"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effect_explosion_asteroid.bundle",
+            "FileName": "assets_gameres_effect_explosion_asteroid_738c8d95589439b61d70e0bcecea94bc.bundle",
+            "FileHash": "738c8d95589439b61d70e0bcecea94bc",
+            "FileCrc": 4036659361,
+            "FileSize": 31316,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_asteroid.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Effect/explosion_asteroid.prefab",
+                    "AssetGUID": "a6d58f54ce5934781962a4f887e834f3"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effect_explosion_enemy.bundle",
+            "FileName": "assets_gameres_effect_explosion_enemy_241820403356aa2a9516e2d12eaef4fa.bundle",
+            "FileHash": "241820403356aa2a9516e2d12eaef4fa",
+            "FileCrc": 1910830631,
+            "FileSize": 31564,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_enemy.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Effect/explosion_enemy.prefab",
+                    "AssetGUID": "160925a6fe2664f2a978566b819f0af0"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effect_explosion_player.bundle",
+            "FileName": "assets_gameres_effect_explosion_player_d35344e73e1ece70f42491cbc2aaceb7.bundle",
+            "FileHash": "d35344e73e1ece70f42491cbc2aaceb7",
+            "FileCrc": 843733074,
+            "FileSize": 32208,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_sound_explosion_player.bundle",
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Effect/explosion_player.prefab",
+                    "AssetGUID": "3455fe69f7ddc4604b95bf9b0a1e88d7"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_effectart.bundle",
+            "FileName": "assets_gameres_effectart_6b71d9f82935220a5d9ec669f576a7a4.bundle",
+            "FileHash": "6b71d9f82935220a5d9ec669f576a7a4",
+            "FileCrc": 3328038650,
+            "FileSize": 54421,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_effect_engines_enemy.bundle",
+                "assets_gameres_effect_engines_player.bundle",
+                "assets_gameres_effect_explosion_asteroid.bundle",
+                "assets_gameres_effect_explosion_enemy.bundle",
+                "assets_gameres_effect_explosion_player.bundle",
+                "assets_gameres_entity_enemy_bullet.bundle",
+                "assets_gameres_entity_enemy_ship.bundle",
+                "assets_gameres_entity_player_bullet.bundle",
+                "assets_gameres_entity_player_ship.bundle",
+                "assets_gameres_scene_scene_battle.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_bolt_cyan_mat.mat",
+                    "AssetGUID": "63fe6ff9ab9e1433f8db4ebd940f2442"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_bolt_orange_mat.mat",
+                    "AssetGUID": "8e27380ee68aa4a219b4db9018e7da31"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_enemyShip_engines_mat.mat",
+                    "AssetGUID": "1b4bad6cea5a94611b21f9757fe41444"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_lazer_cyan_dff.tif",
+                    "AssetGUID": "6e3730451fa077346abd4ac642ea71d8"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/fx_lazer_orange_dff.tif",
+                    "AssetGUID": "fd3cbf51780694849b9b019b36a3938e"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_blast_mat.mat",
+                    "AssetGUID": "1cfe02ffd0b74854ea5bcd1a3c63ac3c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_enginePulse_dff.tif",
+                    "AssetGUID": "eabb37cb6d738b443b398b701a64cd88"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_flash_dff.tif",
+                    "AssetGUID": "3e504a46a8fcec34db3c4776530c6eb2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_glow_mat.mat",
+                    "AssetGUID": "0ed73dc47f4cb38489020d05e9f02c99"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_dff.tif",
+                    "AssetGUID": "0963e6c65b2b1f74d9f455e21901e2dc"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_core_mat.mat",
+                    "AssetGUID": "c58c9afddbd36d14d837fa218d772996"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_dff.tif",
+                    "AssetGUID": "2cb5eef4d7d7bf6459dd13a3f8d90246"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_jet_flare_mat.mat",
+                    "AssetGUID": "a7b030cffa2dc44478c14e49a22771c2"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_dff.tif",
+                    "AssetGUID": "04dbc0581071c254ea6564b2ff06ff9b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_shockwave_mat.mat",
+                    "AssetGUID": "1d46a17a95a444c08830612bc1146d1d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_blue_mat.mat",
+                    "AssetGUID": "b0c7cf51d3fecb446ab93bf854419715"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_dff.tif",
+                    "AssetGUID": "7e91cd9bad7babf4b975882a4b7453cb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_large_mat.mat",
+                    "AssetGUID": "97b1f8b25cca2bc458cb9d6127c8d186"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_small_dff.tif",
+                    "AssetGUID": "1478894bc9a1ed241b05b0862a7b8bce"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_white_mat.mat",
+                    "AssetGUID": "0f995b3145e0e7247a42da6cef1dbf23"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_spark_yellow_mat.mat",
+                    "AssetGUID": "a23eef5e20ff8cb46adf33491fc443fb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_star_dff.tif",
+                    "AssetGUID": "1c89236d45255234ebd1d39657ff7e02"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EffectArt/part_star_mat.mat",
+                    "AssetGUID": "185f97f18bd603a478461ce9c08bd039"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_asteroid01.bundle",
+            "FileName": "assets_gameres_entity_asteroid01_4710122bf72a7e35f337b97bfbac96da.bundle",
+            "FileHash": "4710122bf72a7e35f337b97bfbac96da",
+            "FileCrc": 2409481905,
+            "FileSize": 4312,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_01.bundle",
+                "assets_gameres_entityart_prop_asteroid_01_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/asteroid01.prefab",
+                    "AssetGUID": "7d5f7699d6d1d48e485ac71126e12061"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_asteroid02.bundle",
+            "FileName": "assets_gameres_entity_asteroid02_fcc364328ea7a925d6bb350b432e099d.bundle",
+            "FileHash": "fcc364328ea7a925d6bb350b432e099d",
+            "FileCrc": 2225471633,
+            "FileSize": 4366,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_02.bundle",
+                "assets_gameres_entityart_prop_asteroid_02_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/asteroid02.prefab",
+                    "AssetGUID": "9143e2b62ad50488482f9b73672fc331"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_asteroid03.bundle",
+            "FileName": "assets_gameres_entity_asteroid03_7544b8552f7fc92b543f75469735d513.bundle",
+            "FileHash": "7544b8552f7fc92b543f75469735d513",
+            "FileCrc": 232361020,
+            "FileSize": 4349,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_03.bundle",
+                "assets_gameres_entityart_prop_asteroid_03_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/asteroid03.prefab",
+                    "AssetGUID": "834bfaee90a9d4e04b1e8c1ca22cc88e"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_enemy_bullet.bundle",
+            "FileName": "assets_gameres_entity_enemy_bullet_0a96a2cd579fdcd7aa8f2537335690dc.bundle",
+            "FileHash": "0a96a2cd579fdcd7aa8f2537335690dc",
+            "FileCrc": 2868590485,
+            "FileSize": 4386,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/enemy_bullet.prefab",
+                    "AssetGUID": "11e27c26ac87b40f0a62ec40d7261989"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_enemy_ship.bundle",
+            "FileName": "assets_gameres_entity_enemy_ship_6fc3e251e2d85905f00486d8e72757bc.bundle",
+            "FileHash": "6fc3e251e2d85905f00486d8e72757bc",
+            "FileCrc": 1933437389,
+            "FileSize": 31928,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_sound_weapon_enemy.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_entityart_vehicle_enemyship.bundle",
+                "assets_gameres_entityart_vehicle_enemyship_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/enemy_ship.prefab",
+                    "AssetGUID": "afc18fc39ade3744397c0c993b57be53"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_player_bullet.bundle",
+            "FileName": "assets_gameres_entity_player_bullet_68089886f9be2e4ef4ef4d3a663f17d5.bundle",
+            "FileHash": "68089886f9be2e4ef4ef4d3a663f17d5",
+            "FileCrc": 62902855,
+            "FileSize": 4372,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_effectart.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/player_bullet.prefab",
+                    "AssetGUID": "f4ec271e525e14ca9927a07e6a2e153d"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entity_player_ship.bundle",
+            "FileName": "assets_gameres_entity_player_ship_bc52928e6d839881e410f8e2fd400220.bundle",
+            "FileHash": "bc52928e6d839881e410f8e2fd400220",
+            "FileCrc": 1855383368,
+            "FileSize": 31897,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_sound_weapon_player.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_entityart_vehicle_playership.bundle",
+                "assets_gameres_entityart_vehicle_playership_materials.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Entity/player_ship.prefab",
+                    "AssetGUID": "738bdf56857a65f479c367c7b62c4ad7"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_01.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_01_0f15c4fcbabd2e57312fd06bc30a4a41.bundle",
+            "FileHash": "0f15c4fcbabd2e57312fd06bc30a4a41",
+            "FileCrc": 2431794777,
+            "FileSize": 161602,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_01_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid01.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01.FBX",
+                    "AssetGUID": "baedbbad82997f445a8cb4da210404e0"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_dff.tif",
+                    "AssetGUID": "ae6a7f967521769458b0913fa39caaf4"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_mat.mat",
+                    "AssetGUID": "583ff7026dac91849b7c7b2468ba456b"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/prop_asteroid_01_nrm.tif",
+                    "AssetGUID": "f6db5bbdfe0e9894798706814cd6b336"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_01_materials.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_01_materials_b653b76f2344082d8e9abc7635bb79fb.bundle",
+            "FileHash": "b653b76f2344082d8e9abc7635bb79fb",
+            "FileCrc": 1298634033,
+            "FileSize": 2460,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid01.bundle",
+                "assets_gameres_entityart_prop_asteroid_01.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_01/Materials/prop_asteroid_01_mat.mat",
+                    "AssetGUID": "a6af0edc109b122438f02e8e8d6f0ac2"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_02.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_02_804d95f0b0268186da5b384647290581.bundle",
+            "FileHash": "804d95f0b0268186da5b384647290581",
+            "FileCrc": 3853177216,
+            "FileSize": 147384,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_02_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid02.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02.FBX",
+                    "AssetGUID": "9afa958d6d8235941b9badb42aae4370"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_dff.tif",
+                    "AssetGUID": "ba157ba55f72c424a9e88f3c029997c4"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_mat.mat",
+                    "AssetGUID": "578af1667322bab45b652b79a40bb4fb"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/prop_asteroid_02_nrm.tif",
+                    "AssetGUID": "6d9b42ac01f24bf4d98923573f103575"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_02_materials.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_02_materials_808d2ef9b89b425ed2251a80f29710cd.bundle",
+            "FileHash": "808d2ef9b89b425ed2251a80f29710cd",
+            "FileCrc": 1107908365,
+            "FileSize": 2460,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid02.bundle",
+                "assets_gameres_entityart_prop_asteroid_02.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_02/Materials/prop_asteroid_02_mat.mat",
+                    "AssetGUID": "9ed378c1d3f54194eb370d03329dc8d6"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_03.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_03_f8c8b0caa7cf942965d33696b47c07d1.bundle",
+            "FileHash": "f8c8b0caa7cf942965d33696b47c07d1",
+            "FileCrc": 697485717,
+            "FileSize": 134768,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_prop_asteroid_03_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid03.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03.FBX",
+                    "AssetGUID": "2768a9a4c8d289840918dcb879705893"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_dff.tif",
+                    "AssetGUID": "836be25be3e1e8c41ae5545bc8a9a4d7"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_mat.mat",
+                    "AssetGUID": "4c3865b2ac420cd46a9cde6ab468d016"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/prop_asteroid_03_nrm.tif",
+                    "AssetGUID": "7eae0d2701845a54aa570b07c55dab44"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_prop_asteroid_03_materials.bundle",
+            "FileName": "assets_gameres_entityart_prop_asteroid_03_materials_8670eca69042ae34a414300bea37e501.bundle",
+            "FileHash": "8670eca69042ae34a414300bea37e501",
+            "FileCrc": 3315421783,
+            "FileSize": 2430,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_asteroid03.bundle",
+                "assets_gameres_entityart_prop_asteroid_03.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/prop_asteroid_03/Materials/prop_asteroid_03_mat.mat",
+                    "AssetGUID": "0d57767b5f74e724b88b2db7c72a99aa"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_vehicle_enemyship.bundle",
+            "FileName": "assets_gameres_entityart_vehicle_enemyship_64f300a8d480ecb1dd3d560131a33079.bundle",
+            "FileHash": "64f300a8d480ecb1dd3d560131a33079",
+            "FileCrc": 344689590,
+            "FileSize": 646051,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_vehicle_enemyship_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_enemy_ship.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip.FBX",
+                    "AssetGUID": "9ddab293e2a8af3499dac05f5fd6169c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_glow_mat.mat",
+                    "AssetGUID": "1e0350b97c61bfb4a91c62d756d01727"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_metal_mat.mat",
+                    "AssetGUID": "c547624e174de984882f0a14b4bb32e1"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_nrm.tif",
+                    "AssetGUID": "6e023ca4283b3a7469cd61d24c83048c"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_purple_dff.tif",
+                    "AssetGUID": "6e5d026bf0652ed4380f6a66f4aa26c5"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_vehicle_enemyship_materials.bundle",
+            "FileName": "assets_gameres_entityart_vehicle_enemyship_materials_94863c76353963e4efe074fba58f2daa.bundle",
+            "FileHash": "94863c76353963e4efe074fba58f2daa",
+            "FileCrc": 2343132267,
+            "FileSize": 2545,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_enemy_ship.bundle",
+                "assets_gameres_entityart_vehicle_enemyship.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/Materials/vehicle_enemyShip_glow_mat.mat",
+                    "AssetGUID": "d13764c44bef4ab42ab4ec990a737726"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/Materials/vehicle_enemyShip_metal_mat.mat",
+                    "AssetGUID": "b0d62c843411de048af78c17685f009c"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_vehicle_playership.bundle",
+            "FileName": "assets_gameres_entityart_vehicle_playership_9a375f0b3d841fe84b5fa967736ada96.bundle",
+            "FileHash": "9a375f0b3d841fe84b5fa967736ada96",
+            "FileCrc": 2393065314,
+            "FileSize": 578267,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_entityart_vehicle_playership_materials.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_player_ship.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip.FBX",
+                    "AssetGUID": "d9808401c68af274a8edfbed3d1b53c7"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_collider.FBX",
+                    "AssetGUID": "5282f20eba4d44213820e21af8481932"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_glass_mat.mat",
+                    "AssetGUID": "f36c72c738c55f741afcd674a0b1245f"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_metal_mat.mat",
+                    "AssetGUID": "8940b037a9b441c4cbd3d2b446838424"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_orange_dff.tif",
+                    "AssetGUID": "4f688097e85071841a2c3ba165000c20"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/vehicle_playerShip_orange_nrm.tif",
+                    "AssetGUID": "6db0c8354d868834abf29840037591b1"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_entityart_vehicle_playership_materials.bundle",
+            "FileName": "assets_gameres_entityart_vehicle_playership_materials_d206cb69e2c5a532b339324328c45d99.bundle",
+            "FileHash": "d206cb69e2c5a532b339324328c45d99",
+            "FileCrc": 2153693211,
+            "FileSize": 2525,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_player_ship.bundle",
+                "assets_gameres_entityart_vehicle_playership.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/Materials/vehicle_playerShip_glass_mat.mat",
+                    "AssetGUID": "7064cca58a51b35428de2569444f8498"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/EntityArt/vehicle_playerShip/Materials/vehicle_playerShip_metal_mat.mat",
+                    "AssetGUID": "e3b566fc47d656e4dab8cd05c25a4d3b"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_scene_scene_battle.bundle",
+            "FileName": "assets_gameres_scene_scene_battle_2fd8c94905a175454acd5e41e741db1f.bundle",
+            "FileHash": "2fd8c94905a175454acd5e41e741db1f",
+            "FileCrc": 256460525,
+            "FileSize": 40612,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_audio_music_background.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_sceneart.bundle",
+                "share_assets_gameres_scene.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_battle.unity",
+                    "AssetGUID": "367249c8f14b3a041b2a5c9a2b7de7a5"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_scene_scene_home.bundle",
+            "FileName": "assets_gameres_scene_scene_home_2416c8b1203f96be832e258a1e16bdba.bundle",
+            "FileHash": "2416c8b1203f96be832e258a1e16bdba",
+            "FileCrc": 4026887632,
+            "FileSize": 14531,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_sceneart.bundle",
+                "share_assets_gameres_scene.bundle",
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_home.unity",
+                    "AssetGUID": "d1f972c576a5e20448964044e23ac974"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_sceneart.bundle",
+            "FileName": "assets_gameres_sceneart_c8d09beb055693d2acc353639a1000c7.bundle",
+            "FileHash": "c8d09beb055693d2acc353639a1000c7",
+            "FileCrc": 3829849846,
+            "FileSize": 2083313,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_scene_scene_battle.bundle",
+                "assets_gameres_scene_scene_home.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/cube_junkyard_sharp.cubemap",
+                    "AssetGUID": "f3a18a747c16a9b478bead78298b8258"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/cube_junkyard_soft.cubemap",
+                    "AssetGUID": "92439ca99b5183e4b9ead41e36a0db40"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.mat",
+                    "AssetGUID": "955000b4d1441470e8cbf94f483228b5"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/SceneArt/tile_nebula_green_dff.tif",
+                    "AssetGUID": "71646ebaae78d43aeb8b53cacdb69671"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uifont.bundle",
+            "FileName": "assets_gameres_uifont_afe62a7ac64d74fd408a273485f54aac.bundle",
+            "FileHash": "afe62a7ac64d74fd408a273485f54aac",
+            "FileCrc": 452353068,
+            "FileSize": 104066,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_uipanel_uibattle.bundle",
+                "assets_gameres_uipanel_uihome.bundle",
+                "assets_gameres_uipanel_uiloading.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UIFont/RobotoCondensed-Bold.ttf",
+                    "AssetGUID": "b20f139c373fa4555a05cdd0036dfa44"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uipanel_uibattle.bundle",
+            "FileName": "assets_gameres_uipanel_uibattle_38144841314980052c5d4dea66d6cdfd.bundle",
+            "FileHash": "38144841314980052c5d4dea66d6cdfd",
+            "FileCrc": 294292788,
+            "FileSize": 12625,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle",
+                "assets_gameres_uisprite_atlas_frame.bundle",
+                "assets_gameres_uisprite_atlas_icon.bundle",
+                "assets_gameres_uispriteatlas.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UIPanel/UIBattle.prefab",
+                    "AssetGUID": "dffa197b1a69704408cf9e2b16162c0e"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uipanel_uihome.bundle",
+            "FileName": "assets_gameres_uipanel_uihome_fcbda415ce6300fb6800a5e49b729d3e.bundle",
+            "FileHash": "fcbda415ce6300fb6800a5e49b729d3e",
+            "FileCrc": 100837725,
+            "FileSize": 11641,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UIPanel/UIHome.prefab",
+                    "AssetGUID": "f33f75c4ce22cf248abf851242ac4363"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uipanel_uiloading.bundle",
+            "FileName": "assets_gameres_uipanel_uiloading_a0d8c158a7548ddc1b7d770c3762f050.bundle",
+            "FileHash": "a0d8c158a7548ddc1b7d770c3762f050",
+            "FileCrc": 1794637783,
+            "FileSize": 5098,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uifont.bundle",
+                "assets_gameres_uipanelart.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UIPanel/UILoading.prefab",
+                    "AssetGUID": "79ae622f4c23c47449fc3ea70abaca51"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uipanelart.bundle",
+            "FileName": "assets_gameres_uipanelart_2684bbcc38bc4cbaa90e4f14a5a51ee3.bundle",
+            "FileHash": "2684bbcc38bc4cbaa90e4f14a5a51ee3",
+            "FileCrc": 605894336,
+            "FileSize": 1534995,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_uipanel_uibattle.bundle",
+                "assets_gameres_uipanel_uihome.bundle",
+                "assets_gameres_uipanel_uiloading.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/LOGO.png",
+                    "AssetGUID": "42476ac708102b546a90a57a41da5aac"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/Space.jpg",
+                    "AssetGUID": "b76b8b216adf64f4bbdb78f7977f0310"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/UIBgEffect.anim",
+                    "AssetGUID": "dd12c3b484650fb4e8ad6463c61be1c9"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UIPanelArt/UIBgEffect.controller",
+                    "AssetGUID": "421c063ced5a88441bf232f19be89c34"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uisprite_atlas_frame.bundle",
+            "FileName": "assets_gameres_uisprite_atlas_frame_12b546d4f90070f83a17d1d046e7f682.bundle",
+            "FileHash": "12b546d4f90070f83a17d1d046e7f682",
+            "FileCrc": 725237122,
+            "FileSize": 6465,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uisprite_atlas_icon.bundle",
+                "assets_gameres_uispriteatlas.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_uipanel_uibattle.bundle",
+                "assets_gameres_uisprite_atlas_icon.bundle",
+                "assets_gameres_uispriteatlas.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_frame/frame.png",
+                    "AssetGUID": "ddd541edadc7b104393f8973da3a3f7f"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uisprite_atlas_icon.bundle",
+            "FileName": "assets_gameres_uisprite_atlas_icon_74f547405e300ab1501645e4cfb04d08.bundle",
+            "FileHash": "74f547405e300ab1501645e4cfb04d08",
+            "FileCrc": 402202457,
+            "FileSize": 17170,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uisprite_atlas_frame.bundle",
+                "assets_gameres_uispriteatlas.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_uipanel_uibattle.bundle",
+                "assets_gameres_uisprite_atlas_frame.bundle",
+                "assets_gameres_uispriteatlas.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/bullet.png",
+                    "AssetGUID": "df03a809a6ef80c4db762c7ca7a5b76d"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/pause.png",
+                    "AssetGUID": "4a4f57d0157f22847a4ded65a053c673"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISprite/atlas_icon/rocket.png",
+                    "AssetGUID": "c482382f1e7052644b02887e710d6a5c"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameres_uispriteatlas.bundle",
+            "FileName": "assets_gameres_uispriteatlas_b73ba61d5bf0039d77fe45e6df8da2a0.bundle",
+            "FileHash": "b73ba61d5bf0039d77fe45e6df8da2a0",
+            "FileCrc": 3335040792,
+            "FileSize": 361081,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "assets_gameres_uisprite_atlas_frame.bundle",
+                "assets_gameres_uisprite_atlas_icon.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_uipanel_uibattle.bundle",
+                "assets_gameres_uisprite_atlas_frame.bundle",
+                "assets_gameres_uisprite_atlas_icon.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/UISpriteAtlas/atlas_frame.spriteatlas",
+                    "AssetGUID": "999da17edd2fbfe4496de3bbf2c182ec"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/UISpriteAtlas/atlas_icon.spriteatlas",
+                    "AssetGUID": "2a1b1891e0f61ff498a73d9ff86c26d7"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_hotupdatedlls.bundle",
+            "FileName": "assets_hotupdatedlls_601d1b68747a5c1291469d51b0995bfa.bundle",
+            "FileHash": "601d1b68747a5c1291469d51b0995bfa",
+            "FileCrc": 3639952792,
+            "FileSize": 14695,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/HotUpdateDlls/HotUpdate.dll.bytes",
+                    "AssetGUID": "7b0558ba14229b84a8546c1bd1030bcc"
+                }
+            ]
+        },
+        {
+            "BundleName": "share_assets_gameres_scene.bundle",
+            "FileName": "share_assets_gameres_scene_a2293296a66584beaa5699f7706e9559.bundle",
+            "FileHash": "a2293296a66584beaa5699f7706e9559",
+            "FileCrc": 2350754470,
+            "FileSize": 1445,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_scene_scene_battle.bundle",
+                "assets_gameres_scene_scene_home.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_battleSettings.lighting",
+                    "AssetGUID": "269b07723b31d484e85034b9691f5d05"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/Scene/scene_homeSettings.lighting",
+                    "AssetGUID": "ce19ad4aed57dde42b11449845f36731"
+                }
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "share_packages_com_unity_render-pipelines_universal_runtime_materials_ec4f0b2304d3bcf089a3248f6472fed8.bundle",
+            "FileHash": "ec4f0b2304d3bcf089a3248f6472fed8",
+            "FileCrc": 2583299795,
+            "FileSize": 2994,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "ReferenceBundles": [
+                "assets_gameres_entity_player_ship.bundle",
+                "assets_gameres_entityart_vehicle_playership.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                    "AssetGUID": "31321ba15b8f8eb4c954353edc038b1d"
+                }
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "unityshaders_09d034c0bbe48e0530fc8268fc9d34bd.bundle",
+            "FileHash": "09d034c0bbe48e0530fc8268fc9d34bd",
+            "FileCrc": 1887979373,
+            "FileSize": 127763,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "assets_gameres_effect_engines_enemy.bundle",
+                "assets_gameres_effect_engines_player.bundle",
+                "assets_gameres_effect_explosion_asteroid.bundle",
+                "assets_gameres_effect_explosion_enemy.bundle",
+                "assets_gameres_effect_explosion_player.bundle",
+                "assets_gameres_effectart.bundle",
+                "assets_gameres_entity_asteroid01.bundle",
+                "assets_gameres_entity_asteroid02.bundle",
+                "assets_gameres_entity_asteroid03.bundle",
+                "assets_gameres_entity_enemy_bullet.bundle",
+                "assets_gameres_entity_enemy_ship.bundle",
+                "assets_gameres_entity_player_bullet.bundle",
+                "assets_gameres_entity_player_ship.bundle",
+                "assets_gameres_entityart_prop_asteroid_01.bundle",
+                "assets_gameres_entityart_prop_asteroid_01_materials.bundle",
+                "assets_gameres_entityart_prop_asteroid_02.bundle",
+                "assets_gameres_entityart_prop_asteroid_02_materials.bundle",
+                "assets_gameres_entityart_prop_asteroid_03.bundle",
+                "assets_gameres_entityart_prop_asteroid_03_materials.bundle",
+                "assets_gameres_entityart_vehicle_enemyship.bundle",
+                "assets_gameres_entityart_vehicle_enemyship_materials.bundle",
+                "assets_gameres_entityart_vehicle_playership.bundle",
+                "assets_gameres_entityart_vehicle_playership_materials.bundle",
+                "assets_gameres_scene_scene_battle.bundle",
+                "assets_gameres_scene_scene_home.bundle",
+                "assets_gameres_sceneart.bundle",
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameRes/Shader/UnlitShader.shader",
+                    "AssetGUID": "e1f5153da774c754aa283cf23fd64d56"
+                },
+                {
+                    "AssetPath": "Assets/GameRes/ShaderVariants/MyShaderVariants.shadervariants",
+                    "AssetGUID": "0a3518773db16c946878fee24c0bf860"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/2D/Sprite-Lit-Default.shader",
+                    "AssetGUID": "e260cfa7296ee7642b167f1eb5be5023"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader",
+                    "AssetGUID": "933532a4fcc9baf4fa0491de14d08ed7"
+                },
+                {
+                    "AssetPath": "Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader",
+                    "AssetGUID": "e6e9a19c3678ded42a3bc431ebef7dbd"
+                }
+            ]
+        }
+    ],
+    "IndependentAssets": [
+        {
+            "AssetPath": "Assets/GameRes/EntityArt/vehicle_enemyShip/vehicle_enemyShip_red_dff.tif",
+            "AssetGuid": "f27de5de4aa7d8c448ba881f0277d947",
+            "AssetType": "UnityEngine.Texture2D",
+            "FileSize": 721060
+        },
+        {
+            "AssetPath": "Assets/GameRes/UIFont/LICENSE.txt",
+            "AssetGuid": "b8784b247b090471695b945937cf5a6b",
+            "AssetType": "UnityEngine.TextAsset",
+            "FileSize": 11358
+        }
+    ]
+}

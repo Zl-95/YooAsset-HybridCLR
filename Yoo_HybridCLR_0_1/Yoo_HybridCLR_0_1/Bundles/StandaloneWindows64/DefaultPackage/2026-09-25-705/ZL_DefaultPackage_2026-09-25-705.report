@@ -1,0 +1,226 @@
+{
+    "Summary": {
+        "YooVersion": "3.0.6",
+        "UnityVersion": "2022.3.62f3c1",
+        "BuildDate": "2026/9/25 11:45:24",
+        "BuildSeconds": 2,
+        "BuildTarget": 19,
+        "BuildPipeline": "ScriptableBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2026-09-25-705",
+        "BuildPackageNote": "2026/9/25 11:45:22",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "SupportExtensionless": false,
+        "LocationToLower": false,
+        "IncludeAssetGuid": false,
+        "AutoCollectShaders": false,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": true,
+        "UseAssetDependencyDB": true,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionServicesClassName": "YooAsset.Editor.EncryptionNone",
+        "ManifestProcessServicesClassName": "YooAsset.Editor.ManifestEncryptorNone",
+        "ManifestRestoreServicesClassName": "YooAsset.Editor.ManifestDecryptorNone",
+        "FileNameStyle": 1,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": false,
+        "ReplaceAssetPathWithAddress": false,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "defaultpackage_unityshaders.bundle",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 8,
+        "MainAssetTotalCount": 4,
+        "AllBundleTotalCount": 5,
+        "AllBundleTotalSize": 400208,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "HotUpdateScripts.dll",
+            "AssetPath": "Assets/HotUpdateScriptsDll/HotUpdateScripts.dll.bytes",
+            "AssetGuid": "5f837cea6c88d884292186750d6f9c23",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_hotupdatescriptsdll.bundle",
+            "MainBundleSize": 4737,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "PanelMain",
+            "AssetPath": "Assets/Prefabs/PanelMain.prefab",
+            "AssetGuid": "d31f500138321044593a171dbfcb20b7",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_prefabs.bundle",
+            "MainBundleSize": 10769,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "atlas_frame",
+            "AssetPath": "Assets/SpriteAtlas/atlas_frame.spriteatlas",
+            "AssetGuid": "999da17edd2fbfe4496de3bbf2c182ec",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_spriteatlas.bundle",
+            "MainBundleSize": 361078,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Sprites/atlas_frame/frame.png",
+                    "AssetGUID": "ddd541edadc7b104393f8973da3a3f7f"
+                }
+            ],
+            "DependBundles": [
+                "defaultpackage_assets_sprites_atlas_frame.bundle"
+            ]
+        },
+        {
+            "Address": "atlas_icon",
+            "AssetPath": "Assets/SpriteAtlas/atlas_icon.spriteatlas",
+            "AssetGuid": "2a1b1891e0f61ff498a73d9ff86c26d7",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_spriteatlas.bundle",
+            "MainBundleSize": 361078,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/bullet.png",
+                    "AssetGUID": "df03a809a6ef80c4db762c7ca7a5b76d"
+                },
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/pause.png",
+                    "AssetGUID": "4a4f57d0157f22847a4ded65a053c673"
+                },
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/rocket.png",
+                    "AssetGUID": "c482382f1e7052644b02887e710d6a5c"
+                }
+            ],
+            "DependBundles": [
+                "defaultpackage_assets_sprites_atlas_icon.bundle"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "defaultpackage_assets_hotupdatescriptsdll.bundle",
+            "FileName": "defaultpackage_assets_hotupdatescriptsdll.bundle",
+            "FileHash": "31d40edf87142597ee79e6815f745da1",
+            "FileCrc": 2372089022,
+            "FileSize": 4737,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/HotUpdateScriptsDll/HotUpdateScripts.dll.bytes",
+                    "AssetGUID": "5f837cea6c88d884292186750d6f9c23"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_prefabs.bundle",
+            "FileName": "defaultpackage_assets_prefabs.bundle",
+            "FileHash": "30c1b0985f57a669c958aae0d03dac55",
+            "FileCrc": 1415793030,
+            "FileSize": 10769,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Prefabs/PanelMain.prefab",
+                    "AssetGUID": "d31f500138321044593a171dbfcb20b7"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_spriteatlas.bundle",
+            "FileName": "defaultpackage_assets_spriteatlas.bundle",
+            "FileHash": "a4262b5da4e61bc00c4ad78614ed4b0b",
+            "FileCrc": 1365526091,
+            "FileSize": 361078,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_assets_sprites_atlas_frame.bundle",
+                "defaultpackage_assets_sprites_atlas_icon.bundle"
+            ],
+            "ReferenceBundles": [
+                "defaultpackage_assets_sprites_atlas_frame.bundle",
+                "defaultpackage_assets_sprites_atlas_icon.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/SpriteAtlas/atlas_frame.spriteatlas",
+                    "AssetGUID": "999da17edd2fbfe4496de3bbf2c182ec"
+                },
+                {
+                    "AssetPath": "Assets/SpriteAtlas/atlas_icon.spriteatlas",
+                    "AssetGUID": "2a1b1891e0f61ff498a73d9ff86c26d7"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_sprites_atlas_frame.bundle",
+            "FileName": "defaultpackage_assets_sprites_atlas_frame.bundle",
+            "FileHash": "15055f56f994019a204526f0c6afc514",
+            "FileCrc": 2110977104,
+            "FileSize": 6459,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_assets_spriteatlas.bundle",
+                "defaultpackage_assets_sprites_atlas_icon.bundle"
+            ],
+            "ReferenceBundles": [
+                "defaultpackage_assets_spriteatlas.bundle",
+                "defaultpackage_assets_sprites_atlas_icon.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Sprites/atlas_frame/frame.png",
+                    "AssetGUID": "ddd541edadc7b104393f8973da3a3f7f"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_sprites_atlas_icon.bundle",
+            "FileName": "defaultpackage_assets_sprites_atlas_icon.bundle",
+            "FileHash": "fa8bdfbc0ec3c1d0051d4e3c9184f0b5",
+            "FileCrc": 2466610701,
+            "FileSize": 17165,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_assets_spriteatlas.bundle",
+                "defaultpackage_assets_sprites_atlas_frame.bundle"
+            ],
+            "ReferenceBundles": [
+                "defaultpackage_assets_spriteatlas.bundle",
+                "defaultpackage_assets_sprites_atlas_frame.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/bullet.png",
+                    "AssetGUID": "df03a809a6ef80c4db762c7ca7a5b76d"
+                },
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/pause.png",
+                    "AssetGUID": "4a4f57d0157f22847a4ded65a053c673"
+                },
+                {
+                    "AssetPath": "Assets/Sprites/atlas_icon/rocket.png",
+                    "AssetGUID": "c482382f1e7052644b02887e710d6a5c"
+                }
+            ]
+        }
+    ],
+    "IndependentAssets": []
+}

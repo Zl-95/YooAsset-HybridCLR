@@ -1,0 +1,27 @@
+{
+    "FileVersion": 1,
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2026-09-25-705",
+    "Entries": [
+        {
+            "BundleGuid": "31d40edf87142597ee79e6815f745da1",
+            "FileName": "defaultpackage_assets_hotupdatescriptsdll.bundle"
+        },
+        {
+            "BundleGuid": "30c1b0985f57a669c958aae0d03dac55",
+            "FileName": "defaultpackage_assets_prefabs.bundle"
+        },
+        {
+            "BundleGuid": "a4262b5da4e61bc00c4ad78614ed4b0b",
+            "FileName": "defaultpackage_assets_spriteatlas.bundle"
+        },
+        {
+            "BundleGuid": "15055f56f994019a204526f0c6afc514",
+            "FileName": "defaultpackage_assets_sprites_atlas_frame.bundle"
+        },
+        {
+            "BundleGuid": "fa8bdfbc0ec3c1d0051d4e3c9184f0b5",
+            "FileName": "defaultpackage_assets_sprites_atlas_icon.bundle"
+        }
+    ]
+}
